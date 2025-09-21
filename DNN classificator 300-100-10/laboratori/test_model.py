@@ -9,7 +9,7 @@ from model import DNN
 
 model = joblib.load("../../../DNN_300_100_10.pkl")
 
-img = Image.open("photo_2025-08-20_17-52-31/zz8.png").convert("L")
+img = Image.open("photo_2025-08-20_17-52-31/zz7.png").convert("L")
 img.show()
 img = img.resize((28, 28))
 img_array = np.array(img)
